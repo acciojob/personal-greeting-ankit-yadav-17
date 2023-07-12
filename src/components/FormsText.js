@@ -5,7 +5,7 @@ const FormsText = () => {
     let [text,setText] = useState("");
 
     function changeText(event){
-        setText(event.target.value+"!")
+        setText("Hello "+event.target.value+"!")
     }
 
 
